@@ -1,13 +1,144 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+/*---------------------------- common css---------------------- */
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --bgcolor:#f1f5fd;
+  --primary-color:#6f5de7;
+  --text-color:#828286;
+  --main-text-color:#333333;
+}
+
+html{
+  font-size:62.5%;
+
+}
+
+a{
+  text-decoration: none;
+  color:#fff;
+}
+h1,h2,h3,h4,h5,h6{
+  color:#333333;
+}
+.all__para__style {
+  font-size: 1.3rem;
+  width: 70%;
+  font-weight:lighter;
+  color:#828286;
+  margin: 3rem 0;
+  line-height: 2rem;
+
+}
+.btn__style{
+  width:12rem;
+  height:4rem;
+  border-radius:2rem !important;
+  background-color:var(--primary-color)!important;
+  color:#fff!important;
+  text-transform: capitalize;
+  margin-right: 2rem!important;
+  font-size: 1.5rem!important;
+  font-weight: 400!important;
+}
+
+.fontawesome__style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: var(--bgcolor);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 2rem auto;
+}
+/* ______________________Header CSS_____________________ */
+
+.header{
+  background-color:var(--bgcolor);
+  padding:2rem ;
+  /* z-index: 99;
+  position:relative; */
+}
+section{
+  background-color:var(--bgcolor);
+}
+.nav__brand{
+  font-size: 2.5rem;
+}
+.nav__item{
+  font-size: 1.7rem;
+  font-weight:lighter;
+  margin-right: 2.5rem;
+}
+.nav__item:hover{
+  color:var(--primary-color)!important;
+  text-shadow: 0 0.2rem 0.3rem #766cba43;
+}
+.btn__style{
+  width:12rem;
+  height:4rem;
+  border-radius:2rem;
+  background-color:var(--primary-color);
+  color:#fff;
+  text-transform: capitalize;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.btn__style__2{
+  background-color:transparent;
+  color:#6f5de7;
+  border:.1rem solid var(--primary-color);
+  box-shadow:0 .3rem .5rem #8372f24a;
+}
+.btn__style:hover{
+  background-color:transparent;
+  color:#6f5de7;
+  border:.1rem solid var(--primary-color);
+  box-shadow:0 .3rem .5rem #8372f24a;
+}
+.btn__style__2:hover{
+  background-color:var(--primary-color);
+  color:#fff;
+}
+
+
+/* _____________________Banner section css_______________________ */
+
+
+
+
+
+/* _______________responsive CSS */
+@media (min-width:1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-xl,
+  .container-xxl{
+    max-width:1500px !important;
+  }
+
+  
+}
+@media (min-width:1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-xl,
+  .container-xxl{
+    max-width:1400px;
+  }
+
+  
 }

@@ -1,0 +1,27 @@
+
+.work__container {
+    width: 80vw;
+    padding: 5rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+    margin-top: -10rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin-left: 15rem;
+  }
+  
+  .work__container .main__heading {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+    word-spacing: 1rem;
+  }
+  
+  .content__container {
+    padding: 0 6rem;
+  }
+  
+  .work__container .sub__headingg {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  

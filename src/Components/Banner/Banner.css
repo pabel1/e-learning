@@ -1,0 +1,59 @@
+.banner__section{
+    background-color:#f1f5fd;
+    min-height:100vh;
+    width: 100%;
+    padding-top:4rem;
+    padding: 0 4rem;
+
+
+}
+.left__banner{
+
+    margin: 3rem;
+    padding-left: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left__banner h1{
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #6f5de7;
+}
+.right__banner img{
+    width: 60%;
+    height: 75%;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    background-color:transparent;
+    
+}
+
+.input-group{
+    position: relative !important;
+}
+.form-control{
+    position:absolute;
+    height: 5rem;
+    
+    outline-style: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    padding-left: 1.6rem;
+}
+.input__group__button{
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    color:#fff;
+    background-color:#6f5de7;
+    height: 4rem;
+    width:15%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 2rem !important;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

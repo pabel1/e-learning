@@ -1,0 +1,47 @@
+section{
+    padding-top: 6rem;
+}
+.sub__headingg {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+
+.services__content {
+    width: 80vw;
+    padding: 3rem;
+    
+   
+    
+    /* background-color: #fff; */
+    border-radius: 0.5rem;
+     margin-left: 15rem;
+}
+.card__content{
+     
+     box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.20);
+     border-radius: .8rem;
+     background-color: #fff;
+}
+.services__content h1{
+    padding-bottom: 4rem;
+    color: #6f5de7;
+    font-weight: bolder;
+}
+.card__content p{
+    padding: 2rem;
+    
+    font-size:1.2rem;
+    font-weight:lighter;
+    
+}
+
+.card__content {
+    margin-top: 3rem;
+    padding: 1.5rem;
+
+}
+.card__content:hover{
+    cursor: pointer;
+    background-color:#d6e2facf;
+}

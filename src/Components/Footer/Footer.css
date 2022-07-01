@@ -1,0 +1,46 @@
+footer{
+    background-color:#182334;
+    color:#fff;
+    padding: 3rem;
+}
+footer h2{
+    color:#fff;
+    margin-bottom:1.5rem;
+}
+footer li{
+    list-style:none;
+    font-size:1.4rem;
+    font-weight:lighter;
+    cursor:pointer;
+    margin:1rem 0;
+}
+footer a{
+    text-decoration: none;
+    color:#fff;
+}
+.icon__style{
+  font-size: 3.3rem;
+  color: #6f5de7;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  padding: 1rem;
+  
+  place-items: center;
+  text-align: center;
+  margin: 2rem auto;
+}
+footer .icon__style:hover {
+    transition: all 1s;
+    animation: rotatefont 1s linear infinite alternate-reverse;
+    color: #6f5de7;
+  }
+  
+  @keyframes rotatefont {
+    0% {
+      transform: scale(0.6);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
