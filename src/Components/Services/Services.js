@@ -4,7 +4,8 @@ import "./Services.css";
 import ServicesApi from "../Api/ServicesApi";
 
 const Services = () => {
-  const [servicesData, setServicesData] = useState(ServicesApi);
+  const [servicesData, setServicesData] = useState(ServicesApi);/* eslint-disable-line */
+   
 
   return (
     <>

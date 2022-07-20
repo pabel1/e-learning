@@ -5,7 +5,7 @@ import AboutImage from "../../images/about.png";
 import SupportImage from '../../images/support.png'
 import AboutApi from "../Api/AboutApi";
 const About = () => {
-  const [aboutData, setAboutData] = useState(AboutApi);
+  const [aboutData, setAboutData] = useState(AboutApi);/* eslint-disable-line */
   return (
     <>
       <section className="about__section">

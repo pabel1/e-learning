@@ -4,7 +4,7 @@ import WorksApi from "../Api/WorksApi";
 // import { download } from '@fortawesome/free-solid-svg-icons'
 import './Works.css'
 const Works = () => {
-  const [works, setWorks] = useState(WorksApi);
+  const [works, setWorks] = useState(WorksApi);/* eslint-disable-line */
   return (
     <>
       <section>
